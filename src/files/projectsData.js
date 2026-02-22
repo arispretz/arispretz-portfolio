@@ -99,6 +99,7 @@ const projects = [
   imageUrl: codeuniverse,
   liveViewUrl: 'https://codeuniverse-demo.vercel.app',
   githubUrl: 'https://github.com/arispretz/codeuniverse-app.git',
+  status: 'active',
 },
 {
   id: 2,
@@ -106,6 +107,7 @@ const projects = [
   imageUrl: surveyFormImage,
   liveViewUrl: 'https://ari-survey-form.glitch.me',
   githubUrl: 'https://github.com/arispretz/Survey-Form',
+  status: 'archived',
 },
 {
   id: 3,
@@ -113,6 +115,7 @@ const projects = [
   imageUrl: tributePageImage,
   liveViewUrl: 'https://ari-tribute-page.glitch.me',
   githubUrl: 'https://github.com/arispretz/Tribute-Page',
+  status: 'archived',
 },
 {
   id: 4,
@@ -120,6 +123,7 @@ const projects = [
   imageUrl: technicalDocumentationPageImage,
   liveViewUrl: 'https://ari-technical-documentation-page.glitch.me',
   githubUrl: 'https://github.com/arispretz/Technical-Documentation-Page',
+  status: 'archived',
 },
 {
   id: 5,
@@ -127,6 +131,7 @@ const projects = [
   imageUrl: productLandingPageImage,
   liveViewUrl: 'https://ari-product-landing-page.glitch.me',
   githubUrl: 'https://github.com/arispretz/Product-Landing-Page',
+  status: 'archived',
 },
 {
   id: 6,
@@ -134,6 +139,7 @@ const projects = [
   imageUrl: personalPortfolioImage,
   liveViewUrl: 'https://ari-personal-portfolio.glitch.me',
   githubUrl: 'https://github.com/arispretz/Portfolio-fcc',
+  status: 'archived',
 },
 {
   id: 7,
@@ -141,6 +147,7 @@ const projects = [
   imageUrl: palindromeCheckerImage,
   liveViewUrl: 'https://ari-palindrome-checker.glitch.me',
   githubUrl: 'https://github.com/arispretz/Palindrome-Checker',
+  status: 'archived',
 },
 {
   id: 8,
@@ -148,6 +155,7 @@ const projects = [
   imageUrl: romanNumeralConverterImage,
   liveViewUrl: 'https://ari-roman-numeral-converter.glitch.me',
   githubUrl: 'https://github.com/arispretz/Roman-Numeral-Converter',
+  status: 'archived',
 },
 {
   id: 9,
@@ -155,6 +163,7 @@ const projects = [
   imageUrl: caesarsCipherImage,
   liveViewUrl: 'https://ari-caesars-cipher.glitch.me',
   githubUrl: 'https://github.com/arispretz/Caesars-Cipher',
+  status: 'archived',
 },
 {
   id: 10,
@@ -162,6 +171,7 @@ const projects = [
   imageUrl: telephoneNumberValidatorImage,
   liveViewUrl: 'https://ari-telephone-number-validator.glitch.me',
   githubUrl: 'https://github.com/arispretz/Telephone-Number-Validator',
+  status: 'archived',
 },
 {
   id: 11,
@@ -169,6 +179,7 @@ const projects = [
   imageUrl: cashRegisterImage,
   liveViewUrl: 'https://ari-cash-register.glitch.me',
   githubUrl: 'https://github.com/arispretz/Cash-Register',
+  status: 'archived',
 },
 {
   id: 12,
@@ -176,6 +187,7 @@ const projects = [
   imageUrl: keyboardKeyImage,
   liveViewUrl: 'https://ari-keyboard-key.glitch.me',
   githubUrl: 'https://github.com/arispretz/Keyboard-Key',
+  status: 'archived',
 },
 {
   id: 13,
@@ -183,6 +195,7 @@ const projects = [
   imageUrl: numberGeneratorGridImage,
   liveViewUrl: 'https://ari-number-generator-grid.glitch.me',
   githubUrl: 'https://github.com/arispretz/Number-Generator-Grid',
+  status: 'archived',
 },
 {
   id: 14,
@@ -190,6 +203,7 @@ const projects = [
   imageUrl: infoProjectImage,
   liveViewUrl: 'https://ari-info-project.glitch.me',
   githubUrl: 'https://github.com/arispretz/Info-Project',
+  status: 'archived',
 },
 {
   id: 15,
@@ -197,6 +211,7 @@ const projects = [
   imageUrl: animationImage,
   liveViewUrl: 'https://ari-animation.glitch.me',
   githubUrl: 'https://github.com/arispretz/Animation',
+  status: 'archived',
 },
 {
   id: 16,
@@ -204,6 +219,7 @@ const projects = [
   imageUrl: solarSystemImage,
   liveViewUrl: 'https://ari-solar-system.glitch.me',
   githubUrl: 'https://github.com/arispretz/Solar-System',
+  status: 'archived',
 },
 {
   id: 17,
@@ -211,6 +227,7 @@ const projects = [
   imageUrl: dogAndCatImage,
   liveViewUrl: 'https://ari-dog-and-cat.glitch.me',
   githubUrl: 'https://github.com/arispretz/Dog-and-Cat',
+  status: 'archived',
 },
 {
   id: 18,
@@ -218,6 +235,7 @@ const projects = [
   imageUrl: simpleFormImage,
   liveViewUrl: 'https://ari-simple-form.glitch.me',
   githubUrl: 'https://github.com/arispretz/Simple-Form',
+  status: 'archived',
 },
 {
   id: 19,
@@ -225,6 +243,7 @@ const projects = [
   imageUrl: hexadecimalColorGeneratorImage,
   liveViewUrl: 'https://ari-hexadecimal-color-generator.glitch.me',
   githubUrl: 'https://github.com/arispretz/hexadecimal-Color-Generator',
+  status: 'archived',
 },
 {
   id: 20,
@@ -232,6 +251,7 @@ const projects = [
   imageUrl: partOfTheDayImage,
   liveViewUrl: 'https://ari-part-of-the-day.glitch.me',
   githubUrl: 'https://github.com/arispretz/Part-of-the-Day',
+  status: 'archived',
 },
 {
   id: 21,
@@ -239,6 +259,7 @@ const projects = [
   imageUrl: countryToTravelImage,
   liveViewUrl: 'https://ari-country-to-travel.glitch.me',
   githubUrl: 'https://github.com/arispretz/Country-to-Travel',
+  status: 'archived',
 },
 {
   id: 22,
@@ -246,6 +267,7 @@ const projects = [
   imageUrl: randomQuoteMachineImage,
   liveViewUrl: 'https://ari-random-quote-machine.glitch.me',
   githubUrl: 'https://github.com/arispretz/Random-Quote-Machine',
+  status: 'archived',
 },
 {
   id: 23,
@@ -253,6 +275,7 @@ const projects = [
   imageUrl: reactMarkdownPreviewerImage,
   liveViewUrl: 'https://ari-react-markdown-previewer.glitch.me',
   githubUrl: 'https://github.com/arispretz/React-Markdown-Previewer',
+  status: 'archived',
 },
 {
   id: 24,
@@ -260,6 +283,7 @@ const projects = [
   imageUrl: drumMachineImage,
   liveViewUrl: 'https://ari-drum-machine.glitch.me',
   githubUrl: 'https://github.com/arispretz/Drum-Machine',
+  status: 'archived',
 },
 {
   id: 25,
@@ -267,6 +291,7 @@ const projects = [
   imageUrl: javascriptCalculatorImage,
   liveViewUrl: 'https://ari-javascript-calculator.glitch.me',
   githubUrl: 'https://github.com/arispretz/Javascript-Calculator',
+  status: 'archived',
 },
 {
   id: 26,
@@ -274,6 +299,7 @@ const projects = [
   imageUrl: clock25More5Image,
   liveViewUrl: 'https://ari-clock-25-more-5.glitch.me',
   githubUrl: 'https://github.com/arispretz/Clock-25-more-5',
+  status: 'archived',
 },
 {
   id: 27,
@@ -281,6 +307,7 @@ const projects = [
   imageUrl: barChartImage,
   liveViewUrl: 'https://ari-bar-chart.glitch.me',
   githubUrl: 'https://github.com/arispretz/Bar-Chart',
+  status: 'archived',
 },
 {
   id: 28,
@@ -288,6 +315,7 @@ const projects = [
   imageUrl: scatterPlotImage,
   liveViewUrl: 'https://ari-scatter-plot.glitch.me',
   githubUrl: 'https://github.com/arispretz/Scatter-Plot',
+  status: 'archived',
 },
 {
   id: 29,
@@ -295,6 +323,7 @@ const projects = [
   imageUrl: heatMapImage,
   liveViewUrl: 'https://ari-heat-map.glitch.me',
   githubUrl: 'https://github.com/arispretz/Heat-Map',
+  status: 'archived',
 },
 {
   id: 30,
@@ -302,6 +331,7 @@ const projects = [
   imageUrl: choroplethMapImage,
   liveViewUrl: 'https://ari-choropleth-map.glitch.me',
   githubUrl: 'https://github.com/arispretz/Choropleth-Map',
+  status: 'archived',
 },
 {
   id: 31,
@@ -309,6 +339,7 @@ const projects = [
   imageUrl: treeMapImage,
   liveViewUrl: 'https://ari-tree-map.glitch.me',
   githubUrl: 'https://github.com/arispretz/Tree-Map',
+  status: 'archived',
 },
 {
   id: 32,
@@ -316,6 +347,7 @@ const projects = [
   imageUrl: celestialBodiesDatabaseImage,
   liveViewUrl: '',
   githubUrl: 'https://github.com/arispretz/Celestial-Bodies-Database',
+  status: 'archived',
 },
 {
   id: 33,
@@ -323,6 +355,7 @@ const projects = [
   imageUrl: worldcupDatabaseImage,
   liveViewUrl: '',
   githubUrl: 'https://github.com/arispretz/Worldcup-Database',
+  status: 'archived',
 },
 {
   id: 34,
@@ -330,6 +363,7 @@ const projects = [
   imageUrl: salonAppointmentSchedulerImage,
   liveViewUrl: '',
   githubUrl: 'https://github.com/arispretz/Salon-Appointment-Sheduler',
+  status: 'archived',
 },
 {
   id: 35,
@@ -337,6 +371,7 @@ const projects = [
   imageUrl: periodicTableDatabaseImage,
   liveViewUrl: '',
   githubUrl: 'https://github.com/arispretz/Periodic-Table-Database',
+  status: 'archived',
 },
 {
   id: 36,
@@ -344,6 +379,7 @@ const projects = [
   imageUrl: numberGuessDatabaseImage,
   liveViewUrl: '',
   githubUrl: 'https://github.com/arispretz/number-guess-database',
+  status: 'archived',
 },
 {
   id: 37,
@@ -351,6 +387,7 @@ const projects = [
   imageUrl: timestampMicroserviceImage,
   liveViewUrl: 'https://ari-timestamp-microservice.glitch.me',
   githubUrl: 'https://github.com/arispretz/Timestamp-Microservice',
+  status: 'archived',
 },
 {
   id: 38,
@@ -358,6 +395,7 @@ const projects = [
   imageUrl: requestHeaderParserMicroserviceImage,
   liveViewUrl: 'https://ari-request-header-parser-microservice.glitch.me',
   githubUrl: 'https://github.com/arispretz/Request-Header-Parser-Microservice',
+  status: 'archived',
 },
 {
   id: 39,
@@ -365,6 +403,7 @@ const projects = [
   imageUrl: URLShortenerMicroserviceImage,
   liveViewUrl: 'https://ari-url-shortener-microservice.glitch.me',
   githubUrl: 'https://github.com/arispretz/URL-Shortener-Microservice',
+  status: 'archived',
 },
 {
   id: 40,
@@ -372,6 +411,7 @@ const projects = [
   imageUrl: exerciseTrackerImage,
   liveViewUrl: 'https://ari-exercise-tracker.glitch.me',
   githubUrl: 'https://github.com/arispretz/Exercise-Tracker',
+  status: 'archived',
 },
 {
   id: 41,
@@ -379,6 +419,7 @@ const projects = [
   imageUrl: fileMetadataMicroserviceImage,
   liveViewUrl: 'https://ari-file-metadata-microservice.glitch.me',
   githubUrl: 'https://github.com/arispretz/File-Metadata-Microservice',
+  status: 'archived',
 },
 {
   id: 42,
@@ -386,6 +427,7 @@ const projects = [
   imageUrl: metricImperialConverterImage,
   liveViewUrl: 'https://6y5tpc.csb.app',
   githubUrl: 'https://github.com/arispretz/Metric-Imperial-Converter',
+  status: 'archived',
 },
 {
   id: 43,
@@ -393,6 +435,7 @@ const projects = [
   imageUrl: issueTrackerImage,
   liveViewUrl: 'https://6wflp4.csb.app',
   githubUrl: 'https://github.com/arispretz/Issue-Tracker',
+  status: 'archived',
 },
 {
   id: 44,
@@ -400,6 +443,7 @@ const projects = [
   imageUrl: personalLibraryImage,
   liveViewUrl: 'https://3j683m.csb.app',
   githubUrl: 'https://github.com/arispretz/Personal-Library',
+  status: 'archived',
 },
 {
   id: 45,
@@ -407,6 +451,7 @@ const projects = [
   imageUrl: sudokuSolverImage,
   liveViewUrl: 'https://n5rr2l.csb.app',
   githubUrl: 'https://github.com/arispretz/Sudoku-Solver',
+  status: 'archived',
 },
 {
   id: 46,
@@ -414,6 +459,7 @@ const projects = [
   imageUrl: americanBritishTranslatorImage,
   liveViewUrl: 'https://9hrjg3.csb.app',
   githubUrl: 'https://github.com/arispretz/American-British-Translator',
+  status: 'archived',
 },
 {
   id: 47,
@@ -421,6 +467,7 @@ const projects = [
   imageUrl: arithmeticFormatterImage,
   liveViewUrl: 'https://glitch.com/edit/#!/arithmetic-formatter',
   githubUrl: 'https://github.com/arispretz/Arithmetic-Formatter',
+  status: 'archived',
 },
 {
   id: 48,
@@ -428,6 +475,7 @@ const projects = [
   imageUrl: timeCalculatorImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-time-calculator',
   githubUrl: 'https://github.com/arispretz/Time-Calculator',
+  status: 'archived',
 },
 {
   id: 49,
@@ -435,6 +483,7 @@ const projects = [
   imageUrl: budgetAppImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-budget-app',
   githubUrl: 'https://github.com/arispretz/Budget-App',
+  status: 'archived',
 },
 {
   id: 50,
@@ -442,6 +491,7 @@ const projects = [
   imageUrl: polygonAreaCalculatorImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-polygon-area-calculator',
   githubUrl: 'https://github.com/arispretz/Polygon-Area-Calculator',
+  status: 'archived',
 },
 {
   id: 51,
@@ -449,6 +499,7 @@ const projects = [
   imageUrl: probabilityCalculatorImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-probability-calculator',
   githubUrl: 'https://github.com/arispretz/Probability-Calculator',
+  status: 'archived',
 },
 {
   id: 52,
@@ -456,6 +507,7 @@ const projects = [
   imageUrl: meanVarianceStandardDeviationCalculatorImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-mean-variance-standard-deviation-calculator',
   githubUrl: 'https://github.com/arispretz/Mean-Variance-Standard-Deviation-Calculator',
+  status: 'archived',
 },
 {
   id: 53,
@@ -463,6 +515,7 @@ const projects = [
   imageUrl: demographicDataAnalyzerImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-demographic-data-analyzer',
   githubUrl: 'https://github.com/arispretz/Demographic-Data-Analyzer',
+  status: 'archived',
 },
 {
   id: 54,
@@ -470,6 +523,7 @@ const projects = [
   imageUrl: medicalDataVisualizerImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-medical-data-visualizer',
   githubUrl: 'https://github.com/arispretz/Medical-Data-Visualizer',
+  status: 'archived',
 },
 {
   id: 55,
@@ -477,6 +531,7 @@ const projects = [
   imageUrl: pageViewTimeSeriesVisualizerImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-page-view-time-series-visualizer',
   githubUrl: 'https://github.com/arispretz/Page-View-Time-Series-Visualizer',
+  status: 'archived',
 },
 {
   id: 56,
@@ -484,6 +539,7 @@ const projects = [
   imageUrl: seaLevelPredictorImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1u0K5Sy8fnMrcCQCrf1oUcXgYKvjOf5hl?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Sea-Level-Predictor',
+  status: 'archived',
 },
 {
   id: 57,
@@ -491,6 +547,7 @@ const projects = [
   imageUrl: stockPriceCheckerImage,
   liveViewUrl: 'https://qwr8l5.csb.app',
   githubUrl: 'https://github.com/arispretz/Stock-Price-Checker',
+  status: 'archived',
 },
 {
   id: 58,
@@ -498,6 +555,7 @@ const projects = [
   imageUrl: anonymousMessageBoardImage,
   liveViewUrl: 'https://st52vd.csb.app',
   githubUrl: 'https://github.com/arispretz/Anonymous-Message-Board',
+  status: 'archived',
 },
 {
   id: 59,
@@ -505,6 +563,7 @@ const projects = [
   imageUrl: portScannerImage,
   liveViewUrl: 'https://ari-port-scanner.glitch.me',
   githubUrl: 'https://github.com/arispretz/Port-Scanner',
+  status: 'archived',
 },
 {
   id: 60,
@@ -512,6 +571,7 @@ const projects = [
   imageUrl: sha1PasswordCrackerImage,
   liveViewUrl: 'https://ari-sha1-password-cracker.glitch.me',
   githubUrl: 'https://github.com/arispretz/SHA-1-Password-Cracker',
+  status: 'archived',
 },
 {
   id: 61,
@@ -519,6 +579,7 @@ const projects = [
   imageUrl: secureRealTimeMultiplayerGameImage,
   liveViewUrl: 'https://fmlfzw.csb.app',
   githubUrl: 'https://github.com/arispretz/Secure-Real-Time-Multiplayer-Game',
+  status: 'archived',
 },
 {
   id: 62,
@@ -526,6 +587,7 @@ const projects = [
   imageUrl: rockPaperScissorsImage,
   liveViewUrl: 'https://glitch.com/edit/#!/ari-rock-paper-scissors',
   githubUrl: 'https://github.com/arispretz/Rock-Paper-Scissors',
+  status: 'archived',
 },
 {
   id: 63,
@@ -533,6 +595,7 @@ const projects = [
   imageUrl: catAndDogImageClassifierImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1np6Fhesudh5-gF9Quu0Md093BOE0luLv?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Cat-and-Dog-Image-Classifier',
+  status: 'archived',
 },
 {
   id: 64,
@@ -540,6 +603,7 @@ const projects = [
   imageUrl: bookRecommendationEngineUsingKNNImage,
   liveViewUrl: 'https://colab.research.google.com/drive/14rXGixg1zXYFewMup8R-JWs_B4oYmcj8?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Book-Recommendation-Engine-using-KNN',
+  status: 'archived',
 },
 {
   id: 65,
@@ -547,6 +611,7 @@ const projects = [
   imageUrl: linearRegressionHealthCostsCalculatorImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1ATOofM4Za4v9jqv3nAn-1WCrxF4gTpxJ?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Linear-Regression-Health-Costs-Calculator',
+  status: 'archived',
 },
 {
   id: 66,
@@ -554,6 +619,7 @@ const projects = [
   imageUrl: neuralNetworkSMSTextClassifierImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1v0BuSJdDSHJtb-b2J2MLuXKn9uuYkx1E?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Neural-Network-SMS-Text-Classifier',
+  status: 'archived',
 },
 {
   id: 67,
@@ -561,6 +627,7 @@ const projects = [
   imageUrl: multiFunctionCalculatorImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1R0ct9Oyyyjpl_XCE0svDeY5vKduMZHYp?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Multi-Function-Calculator',
+  status: 'archived',
 },
 {
   id: 68,
@@ -568,6 +635,7 @@ const projects = [
   imageUrl: GraphingCalculatorImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1iWxXkVMg8GBPUUBrAwfAyt8AxbAaZcHM?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Graphing-Calculator',
+  status: 'archived',
 },
 {
   id: 69,
@@ -575,6 +643,7 @@ const projects = [
   imageUrl: threeMathGamesImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1vAKbU_2ycq9E0FW7z_s5LRTW1J8I5Uw7?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Three-Math-Games',
+  status: 'archived',
 },
 {
   id: 70,
@@ -582,6 +651,7 @@ const projects = [
   imageUrl: financialCalculatorImage,
   liveViewUrl: 'https://colab.research.google.com/drive/1rWY618ZhtTtJSLVE7olZkdq31u_6qglt?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Financial-Calculator',
+  status: 'archived',
 },
 {
   id: 71,
@@ -589,6 +659,7 @@ const projects = [
   imageUrl: dataGraphExplorerImage,
   liveViewUrl: 'https://colab.research.google.com/drive/10mvNajIuBsxD2--ZnW0zZWk2ik8sUq4D?usp=sharing',
   githubUrl: 'https://github.com/arispretz/Data-Graph-Explorer',
+  status: 'archived',
 },
 {
   id: 72,
@@ -596,6 +667,7 @@ const projects = [
   imageUrl: showTheLocalWeatherImage,
   liveViewUrl: 'https://ari-show-the-local-weather.glitch.me',
   githubUrl: 'https://github.com/arispretz/Show-the-Local-Weather',
+  status: 'archived',
 },
 {
   id: 73,
@@ -603,6 +675,7 @@ const projects = [
   imageUrl: buildAWikipediaViewerImage,
   liveViewUrl: 'https://ari-build-a-wikipedia-viewer.glitch.me',
   githubUrl: 'https://github.com/arispretz/Build-a-Wikipedia-Viewer',
+  status: 'archived',
 },
 {
   id: 74,
@@ -610,6 +683,7 @@ const projects = [
   imageUrl: useTheTwitchTVJSONAPIImage,
   liveViewUrl: 'https://ari-use-the-twitch-tv-json-api.glitch.me',
   githubUrl: 'https://github.com/arispretz/Use-the-Twitch-TV-JSON-API',
+  status: 'archived',
 },
 {
   id: 75,
@@ -617,6 +691,7 @@ const projects = [
   imageUrl: buildAnImageSearchAbstractionLayerImage,
   liveViewUrl: 'https://image-search-abstraction-layer-frontend-k7eg1coip.vercel.app',
   githubUrl: 'https://bitbucket.org/freecodecampprojects1/image-search-abstraction-layer/src/master/',
+  status: 'archived',
 },
 {
   id: 76,
@@ -624,6 +699,7 @@ const projects = [
   imageUrl: buildATicTacToeGameImage,
   liveViewUrl: 'https://ari-build-a-tic-tac-toe-game.glitch.me',
   githubUrl: 'https://github.com/arispretz/Build-a-Tic-Tac-Toe-Game',
+  status: 'archived',
 },
   {
     id: 77,
@@ -631,6 +707,7 @@ const projects = [
     imageUrl: buildASimonGameImage,
     liveViewUrl: 'https://build-a-simon-game.glitch.me',
     githubUrl: 'https://github.com/arispretz/Build-a-Simon-Game',
+    status: 'archived',
   },
   {
     id: 78,
@@ -638,6 +715,7 @@ const projects = [
     imageUrl: buildAFreeCodeCampForumHomepageImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/KKEpXxa',
     githubUrl: 'https://github.com/arispretz/Build-a-freeCodeCamp-Homepage',
+    status: 'archived',
   },
   {
     id: 79,
@@ -645,6 +723,7 @@ const projects = [
     imageUrl: buildARecipeBoxImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/ZEPGazr',
     githubUrl: 'https://github.com/arispretz/Build-a-Recipe-Box',
+    status: 'archived',
   },
   {
     id: 80,
@@ -652,6 +731,7 @@ const projects = [
     imageUrl: buildTheGameOfLifeImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/RwdPjGP',
     githubUrl: 'https://github.com/arispretz/Build-the-Game-of-Life',
+    status: 'archived',
   },
   {
     id: 81,
@@ -659,6 +739,7 @@ const projects = [
     imageUrl: buildARoguelikeDungeonCrawlerGameImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/QWobZgj',
     githubUrl: 'https://github.com/arispretz/Build-a-Roguelike-Dungeon-Crawler-Game',
+    status: 'archived',
   },
   {
     id: 82,
@@ -666,6 +747,7 @@ const projects = [
     imageUrl: p2pVideoChatApplicationImage,
     liveViewUrl: 'https://p2p-video-chat-app-frontend.vercel.app',
     githubUrl: 'https://bitbucket.org/freecodecampprojects1/video-chat-app/src/master/',
+    status: 'archived',
   },
   {
     id: 83,
@@ -673,6 +755,7 @@ const projects = [
     imageUrl: showNationalContiguityWithAForceDirectedGraphImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/xxBGypW',
     githubUrl: 'https://github.com/arispretz/Show-National-Contiguity-with-a-Force-Directed-Graph',
+    status: 'archived',
   },
   {
     id: 84,
@@ -680,6 +763,7 @@ const projects = [
     imageUrl: mapDataAcrossTheGlobeImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/Jjzdmge',
     githubUrl: 'https://github.com/arispretz/Map-Data-Across-the-Globe',
+    status: 'archived',
   },
   {
     id: 85,
@@ -687,6 +771,7 @@ const projects = [
     imageUrl: manageABookTradingClubImage,
     liveViewUrl: 'https://book-trading-club-frontend.vercel.app',
     githubUrl: 'https://bitbucket.org/freecodecampprojects1/book-trading-club/src/master/',
+    status: 'archived',
   },
   {
     id: 86,
@@ -694,6 +779,7 @@ const projects = [
     imageUrl: buildAPinterestCloneImage,
     liveViewUrl: 'https://colab.research.google.com/drive/10mvNajIuBsxD2--ZnW0zZWk2ik8sUq4D?usp=sharing',
     githubUrl: 'https://bitbucket.org/freecodecampprojects1/build-a-pinterest-clone/src/master/',
+    status: 'archived',
   },
   {
     id: 87,
@@ -701,6 +787,7 @@ const projects = [
     imageUrl: buildANightlifeCoordinationAppImage,
     liveViewUrl: 'https://ari-nightlife-coordination-app.glitch.me',
     githubUrl: 'https://github.com/arispretz/Build-a-Nightlife-Coordination-App',
+    status: 'archived',
   },
   {
     id: 88,
@@ -708,6 +795,7 @@ const projects = [
     imageUrl: chartTheStockMarketImage,
     liveViewUrl: 'https://chart-the-stock-market-frontend.vercel.app',
     githubUrl: 'https://bitbucket.org/freecodecampprojects1/chart-the-stock-market/src/master/',
+    status: 'archived',
   },
   {
     id: 89,
@@ -715,6 +803,7 @@ const projects = [
     imageUrl: buildAVotingAppImage,
     liveViewUrl: 'https://build-a-voting-app-frontend-p7llv2diu.vercel.app',
     githubUrl: 'https://bitbucket.org/freecodecampprojects1/voting-app/src/master/',
+    status: 'archived',
   },
   {
     id: 90,
@@ -722,6 +811,7 @@ const projects = [
     imageUrl: buildAPongGameImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/poYJqbG',
     githubUrl: 'https://github.com/arispretz/Build-a-Pong-Game',
+    status: 'archived',
   },
   {
     id: 91,
@@ -729,6 +819,7 @@ const projects = [
     imageUrl: buildALightBrightAppImage,
     liveViewUrl: 'https://codepen.io/arispretz/full/QWobzjV',
     githubUrl: 'https://github.com/arispretz/Build-a-Light-Bright-App',
+    status: 'archived',
   },
 ];
 
