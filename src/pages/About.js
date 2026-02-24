@@ -9,7 +9,7 @@ const About = () => {
     <>
       <Box style={{ display: 'flex' }}>
           <Box style={{ flex: 2, padding: '50px', backgroundColor: '#FFE0C2' }}>
-          <Text as="div" style={{ textAlign: 'center', justifyContent:'center', marginLeft:'336px', marginTop: '-210px', backgroundColor:'white', border:'2px solid #664282', color:'purple', width:'500px', height:'100px', borderRadius:'7%'}}>
+          <Text as="div" style={{ textAlign: 'center', justifyContent:'center', marginLeft:'400px', marginTop: '-210px', backgroundColor:'white', border:'2px solid #664282', color:'purple', width:'500px', height:'100px', borderRadius:'7%'}}>
             <h2>More about me</h2>
             </Text>
             <Text as="div" style={{ textAlign: 'center', marginTop: '120px' }}>
