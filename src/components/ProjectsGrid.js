@@ -19,7 +19,7 @@ const ProjectsGrid = () => {
 
   return (
     <Box style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <Box style={{ flex: 2, marginTop: '-50px', backgroundColor: '#FFE0C2' }}>
+      <Box style={{ flex: 2, padding: '5px 180px 40px 180px', marginTop: '-50px', backgroundColor: '#FFE0C2' }}>
         <Container style={{ color: 'purple' }}>
           <Grid columns="3" gap="3" rows="auto" width="auto">
             {currentProjects.map((project) => (
